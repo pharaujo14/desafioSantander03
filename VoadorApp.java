@@ -6,7 +6,8 @@ public class VoadorApp {
 		Pato pato = new Pato();
 		Aviao aviao = new Aviao();
 		SuperHomem superman = new SuperHomem();
-		TorreDeControle tc = new TorreDeControle(pato, aviao, superman);
+		Voador[] voadores = {pato, aviao, superman};
+		TorreDeControle tc = new TorreDeControle(voadores);
 		
 		tc.voemTodos();
 		System.out.println("------------------------------------");

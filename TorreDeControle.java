@@ -12,11 +12,9 @@ public class TorreDeControle{
 		this.voadores = voadores;
 	}
 
-	public TorreDeControle(Voador ... voadores) {
+	public TorreDeControle(Voador[] voadores) {
 		this.voadores = voadores;
-	}
-	
-	
+	}	
 
 	public void voemTodos() {
 		for (Voador voador : voadores) {
